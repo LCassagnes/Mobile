@@ -54,6 +54,19 @@ public class MainActivity extends Activity {
         }
     }
 
+    /*
+     @Override
+  public void onClick(View v) {
+	Intent intent = new Intent(MainActivity.this, LoginDisplayActivity.class);
+	startActivity(intent);
+
+     */
+
+
+
+
+
+
     private View.OnClickListener jclick = new OnClickListener(){
         public void onClick(View v){
             Intent i = new Intent(MainActivity.this, DLIntentService.class);
