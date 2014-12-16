@@ -5,8 +5,10 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="descrip">Cliquez sur le bouton suivant pour récupérer le Json.</string>
-    <string name="jsonBut">Get Json</string>
-    <string name="result"><b><u>Le Json :</u></b></string>
+    <string name="jsonBut">Get URL content</string>
+    <string name="result"><b><u>Votre requête renvoie :</u></b></string>
     <string name="jsontext"></string>
+    <string name="edittext">URL</string>
+    <string name="enter_text">Entrez l\'URL de téléchargement</string>
 
 </resources>

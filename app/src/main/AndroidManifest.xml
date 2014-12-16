@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-
     package="com.example.sismix.asynctask" >
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -20,6 +18,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <service
+            android:name=".DLIntentService"
+            android:exported="false" >
+        </service>
     </application>
 
 </manifest>
